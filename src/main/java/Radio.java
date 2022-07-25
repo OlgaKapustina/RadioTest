@@ -9,8 +9,6 @@ public class Radio {
     }
     public Radio(int stationCount){
         maxStation = stationCount -1 ;
-
-
     }
 
     public void next(){
@@ -29,8 +27,6 @@ public class Radio {
             currentStation = maxStation;
         }
     }
-
-
     public void increaseVolume() {
         if (currentVolume < 10) {
             currentVolume++;

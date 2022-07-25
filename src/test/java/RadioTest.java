@@ -12,14 +12,6 @@ public class RadioTest {
     }
 
 
-
-
-
-
-
-
-
-
     @Test
     public void shouldSetCurrentStation() {
         Radio radio = new Radio();
