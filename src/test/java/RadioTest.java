@@ -5,19 +5,11 @@ import org.junit.jupiter.api.Test;
 public class RadioTest {
 
     @Test
-    public void test(){
+    public void setNumberOfStation(){
         Radio radio = new Radio(20);
         radio.setCurrentStation(15);
         assertEquals(15, radio.getCurrentStation());
     }
-
-
-
-
-
-
-
-
 
 
     @Test
