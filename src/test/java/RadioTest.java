@@ -59,9 +59,9 @@ public class RadioTest {
     @Test
     public void shouldTurnOnTheNextStation() {
         Radio radio = new Radio();
-        radio.setCurrentStation(8);
+        radio.setCurrentStation(9);
         radio.next();
-        int expected = 9;
+        int expected = 0;
         int actual = radio.getCurrentStation();
 
         assertEquals(expected, actual);
